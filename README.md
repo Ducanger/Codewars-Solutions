@@ -1,2 +1,2 @@
 # Codewars-Solution
-C++
+https://www.codewars.com/users/Ducanger/badges/large

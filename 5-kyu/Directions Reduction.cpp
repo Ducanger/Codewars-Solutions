@@ -10,6 +10,7 @@ vector<string> DirReduction::dirReduc(vector<string> &arr)
 {
     string s = "";
     for ( int i = 0; i < arr.size(); i++ ) s += arr[i] + ' ';
+    
     while ( s.length() > 0 )
     {
         if ( s.find("NORTH SOUTH") != -1 ) s.erase(s.find("NORTH SOUTH"),12);
@@ -18,6 +19,7 @@ vector<string> DirReduction::dirReduc(vector<string> &arr)
         else if ( s.find("WEST EAST") != -1 ) s.erase(s.find("WEST EAST"),10);
         else break;  
     }
+    
     vector<string> res;
     string temp = "";
     for ( int i = 0; i < s.length(); i++ ) 
@@ -27,6 +29,6 @@ vector<string> DirReduction::dirReduc(vector<string> &arr)
         temp = "";
     }
     else temp += s[i];
-    for (int i=0; i<res.size(); i++) cout<<res[i];
+
     return res;
 }

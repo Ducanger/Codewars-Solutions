@@ -1,2 +1,7 @@
-# Codewars Solution C++
+# Codewars Solutions
+
 [![CodeWars](https://www.codewars.com/users/Ducanger/badges/large)](https://www.codewars.com/users/Ducanger)
+
+### Language
+
+C++
